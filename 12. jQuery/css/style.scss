@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#first{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
+
+header{
+    width: 100%;
+    background-color: plum;
+    height: 70px;
+    transition: .5s;
+    position: sticky;
+    top: 0;
+}
+
+.active{
+    height: 0px !important;
+}
